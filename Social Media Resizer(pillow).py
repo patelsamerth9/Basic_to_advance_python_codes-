@@ -16,4 +16,4 @@ if uploaded_file is not None:
     buf = io.BytesIO()
     insta_img.convert("RGB").save(buf, format="JPEG")
     st.download_button("Download Instagram Photo", data=buf.getvalue(), file_name="insta.jpg")
-print('Thankyou for using ')
+print("Thankyou for using ")
