@@ -1,4 +1,5 @@
 import cv2
+<<<<<<< HEAD
 import cv2.data
 import os
 
@@ -29,3 +30,15 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 
+=======
+cap = cv2.VideoCapture(0)
+while True:
+    ret, frame = cap.read()
+    if not ret:
+        break
+    cv2.imshow('Live Webcam Feed', frame)
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
+cap.release()
+cv2.destroyAllWindows()
+>>>>>>> 775b7034bdbbdf99f32c735c6a2ca588cb54215f
