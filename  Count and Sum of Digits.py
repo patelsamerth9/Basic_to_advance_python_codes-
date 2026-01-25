@@ -7,4 +7,5 @@ while num > 0:
     count += 1
     num //= 10
 print("Count:", count)
-print("Sum:", total)
+print("Sum:", total)    
+#
