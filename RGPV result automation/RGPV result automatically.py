@@ -173,3 +173,5 @@ df_output.to_excel(output_path, index=False)
 print(f"✅ Saved to: {output_path}")
 
 driver.quit()
+# --- CLEANUP ---
+print("🏁 Automation complete.")
