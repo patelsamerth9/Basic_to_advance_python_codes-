@@ -32,3 +32,4 @@ my_sites = [
 
 # Run the monitor (checks every 10 seconds for this example)
 # monitor_websites(my_sites, 10)
+#to run this use monitor_websites(my_sites, 10)
