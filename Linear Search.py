@@ -8,3 +8,4 @@ numbers = [10, 23, 45, 70, 11, 15]
 target_value = 70
 result = linear_search(numbers, target_value)
 print(result)
+#run this code to see the output of the linear search function.
