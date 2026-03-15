@@ -15,7 +15,7 @@ def add_task(task):
     with open("tasks.txt", "a") as file:
         file.write(task + "\n")
     print("Task added successfully!")
-
+x
 while True:
     print("\n1. Show Tasks")
     print("2. Add Task")
