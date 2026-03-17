@@ -27,3 +27,4 @@ if st.button("Calculate Result"):
     st.write("Total Marks:", total)
     st.write("Percentage:", percentage)
     st.write("Grade:", grade)
+    #to run this code, save it as "Student Mark analyse.py" and run the command "streamlit run Student Mark analyse.py" in the terminal.    
