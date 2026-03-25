@@ -5,3 +5,5 @@ def shipping_cost(weight_kg, distance_km):
     return base_fee + weight_fee + distance_fee
 
 print(shipping_cost(4.5, 300))
+print(shipping_cost(10, 150))
+print(shipping_cost(2, 50))
