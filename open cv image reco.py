@@ -5,7 +5,7 @@ print(os.listdir(cv2.data.haarcascades))
 model_name = 'haarcascade_frontalface_default.xml'
 data_path = cv2.data.haarcascades + model_name
 modal = cv2.CascadeClassifier(data_path)
-img = cv2.imread("/Users/ravendrapatel/Gropu image .jpeg")
+img = cv2.imread("/Users/ravendrapatel/group photo.jpeg")
 faces = modal.detectMultiScale(img, 1.1, 4)
 print(faces)
 for face in faces:
