@@ -19,5 +19,3 @@ print(x3)
 s4 = 'hello how are you samarth'
 x4 = s4.index('h')#this will return the index of the first occurrence of the character or substring         
 print(x4)
-#x4 = s4.index('z')#this will raise a value error as z is not present in the string
-#print(x4)  
