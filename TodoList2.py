@@ -10,19 +10,15 @@ def show_tasks():
                     print(f"{i}. {task.strip()}")
     except FileNotFoundError:
         print("No tasks file found.")
-
 def add_task(task):
     with open("tasks.txt", "a") as file:
         file.write(task + "\n")
     print("Task added successfully!")
-x
 while True:
     print("\n1. Show Tasks")
     print("2. Add Task")
     print("3. Exit")
-
     choice = input("Choose option: ")
-
     if choice == "1":
         show_tasks()
     elif choice == "2":
